@@ -1,0 +1,26 @@
+{
+  "name": "twitter-dump",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "fetch": "node ./src/fetch.mjs",
+    "join": "node ./src/join.mjs",
+    "clear:raw": "rm -rf ./data/raw/*.json",
+    "clear:combined": "rm -rf ./data/combined/*.json",
+    "clear": "npm run clear:raw && npm run clear:combined",
+    "prettier:fix": "prettier --write src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^11.0.0",
+    "json-stable-stringify": "^1.0.1",
+    "node-fetch": "^3.1.0",
+    "query-string": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
+  }
+}

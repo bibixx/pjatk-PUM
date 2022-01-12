@@ -1,0 +1,14 @@
+node_modules
+.vscode
+
+data/*
+data/raw/*
+data/combined/*
+
+!data/raw
+!data/combined/
+!data/.gitkeep
+!data/raw/.gitkeep
+!data/combined/.gitkeep
+
+.env
