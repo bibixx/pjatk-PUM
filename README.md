@@ -7,7 +7,7 @@
 
 This repository contains subprojects required for creating a final project for the PUM (Basics of Machine Learning) course led by Bernadetta Bartosik during studies on [PJAIT](https://www.pja.edu.pl/en/).
 
-The following code is distributed under the [CC BY-NC](./LICENSE.md)
+The following code is distributed under the [GPLv3](./LICENSE.md)
 
 ---
 
